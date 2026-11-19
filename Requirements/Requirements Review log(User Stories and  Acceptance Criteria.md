@@ -18,12 +18,6 @@ vi. Given that i have accessed the website, when i click on the "Admin" tab, i s
 
 
 
-###### &#x09;**Open questions**
-
-
-
-
-
 2. As a user, i want to check to availability so i can confirm which rooms are available for the days i would like to book rooms
 
 &#x09;
@@ -57,8 +51,30 @@ iii. Given that i have navigated to the Bookings section,
     iv. Are all fields mandatory?
 
 
-4. 
+4.  As a user, i want to be able to book a hotel so that i can make reservation for my staying
 
+    **Acceptance Criteria**
+    i. Given that i have selected valid availability dates, when i click on "Book now" i should be redirected to confirmation page.
+    ii. Given that i have been redirected to a confirmation page, when i click on "Confirm" a success message should appear to confirm success
 
+    **Open questions**
+    i. What information should the confirmation page contain
+    ii. What is the definition of success
+    iii. Should the success message be sent through other channels(sms, email)
+    iv. What happens when the number of people confirming room reservation > the rooms available? eg, what happens when three people confirm booking for two rooms at the same time?
 
+5. As an admin,i want to be able to log into the admin site so i can monitor and modify hotel activities
+    **Acceptance Criteria**
+    i. Given i am on the website, when i click on admin tab on the navigation bar, it should redirect me to the admin log in page
+    ii. Given i am on the admin log in page, when fill i with valid log in credentials and click on "login", it should redirect me  to the the admin page
+    iii. Given i am on the admin login page, when i fill the input fields with invalid login credentials and click on "login", i should get an "invalid credentials" error message
 
+    **Open questions**
+    i. What input field should be used for the login page
+    ii. How should the login page handle empty input fields
+    iii. 
+
+6. As an admin, i want to receive messages sent by visitors and guests so i can view messages sent by them.
+    **Acceptance Criteria**
+    i. Given i have logged into the admin site, when i click on the messaes tab, i should be redirected to the messages page
+    ii.
